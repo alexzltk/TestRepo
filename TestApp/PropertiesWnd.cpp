@@ -179,6 +179,7 @@ void CPropertiesWnd::InitPropList()
 	pProp->AddOption(_T("Thin"));
 	pProp->AddOption(_T("Resizable"));
 	pProp->AddOption(_T("Dialog Frame"));
+	pProp->AddOption(_T("New option"));
 	pProp->AllowEdit(FALSE);
 
 	pGroup1->AddSubItem(pProp);
